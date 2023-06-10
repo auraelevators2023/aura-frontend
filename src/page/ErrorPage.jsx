@@ -39,7 +39,7 @@ const ErrorPage = () => {
           data-aos="fade"
         >
           <h2> Sorry!</h2>
-          <h2> The page you're looking for can't be found</h2>
+          <h6> The page you're looking for can't be found</h6>
         </div>
       </div>
       <section id="not-found">
@@ -50,7 +50,7 @@ const ErrorPage = () => {
           </div>
           <br />
         </div>
-        <div id="title" className="text-primary1">
+        {/* <div id="title" className="text-primary1">
           404 Error Page
         </div>
         <div className="circles">
@@ -62,7 +62,7 @@ const ErrorPage = () => {
           <span className="circle big"></span>
           <span className="circle med"></span>
           <span className="circle small"></span>
-        </div>
+        </div> */}
       </section>
     </div>
   );

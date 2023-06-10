@@ -1,20 +1,18 @@
-import React from 'react'
-import ContectForm from '../component/ContectForm';
-import { Link } from 'react-router-dom';
+import React from "react";
+import ContectForm from "../component/ContectForm";
+import { Link } from "react-router-dom";
 const Contect = () => {
+  const linkStyle = {
+    color: "black",
+    textDecoration: "none",
+    cursor: "pointer",
+    transition: "all 0.4s ease 0s",
+  };
 
-    const linkStyle = {
-      color: "black",
-      textDecoration: "none",
-      cursor: "pointer",
-      transition: "all 0.4s ease 0s",
-    };
+  const hoverStyle = {
+    color: "#1e849d",
+  };
 
-    const hoverStyle = {
-      color: "#1e849d",
-    };
-
-  
   return (
     <>
       <div
@@ -134,6 +132,6 @@ const Contect = () => {
       </a>
     </>
   );
-}
+};
 
-export default Contect
+export default Contect;
