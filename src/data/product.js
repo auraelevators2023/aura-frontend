@@ -45,7 +45,7 @@ const producteDetail = [
     limg: "https://i.postimg.cc/026Hy95b/Whats-App-Image-2023-06-03-at-6-38-41-PM.jpg",
 
     ltopic:
-      "The Advantages of Installing a Car Elevator in Your Home or Business",
+      "The Advantages of Installing a Passanger Elevator",
 
     ldetail:
       "A passenger elevator is a type of elevator that is used to transport people between floors of a building. Passenger elevators are typically powered by electricity and can travel at speeds of up to 1,000 feet per minute. ",
