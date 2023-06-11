@@ -1,7 +1,12 @@
 [build]
-command = "npm run build"
-publish = "dist"
-error_pages = [{
-  pattern = "/*",
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 200
+
+[[error_pages]]
+  pattern = "/*"
   file = "ErrorPage.jsx"
-}]
