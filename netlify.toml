@@ -1,6 +1,7 @@
-{
-  "error_pages": [{
-    "pattern": "/*",
-    "file": "ErrorPage.js"
-  }]
-}
+[build]
+command = "npm run build"
+publish = "dist"
+error_pages = [{
+  pattern = "/*",
+  file = "ErrorPage.jsx"
+}]
