@@ -1,0 +1,6 @@
+{
+  "error_pages": [{
+    "pattern": "/*",
+    "file": "ErrorPage.js"
+  }]
+}
