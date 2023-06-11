@@ -13,7 +13,7 @@ import Blog from "./page/Blog";
 import ProductDetail from "./page/ProductDetail";
 import Project from "./page/Project";
 import ProjectDetail from "./page/ProjectDetail";
-import Test from "./page/Test";
+//import Test from "./page/Test";
 //components
 import Navbar from "./component/Navbar";
 import Footer from "./component/Footer";
