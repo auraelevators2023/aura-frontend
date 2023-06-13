@@ -50,7 +50,7 @@ const Contect = () => {
                       (e.currentTarget.style.color = linkStyle.color)
                     }
                   >
-                    Shop no 236, city classic complex, Jivraj Park Main Rd, Mota
+                    Shop no 236, City Classic Complex, Jivraj Park Main Rd, Mota
                     Mava, Rajkot, Gujarat 360004
                   </Link>
                 </p>
@@ -87,7 +87,7 @@ const Contect = () => {
                 <p>
                   {" "}
                   <Link
-                    to="tel:+919909965265"
+                    to="tel:+917990809661"
                     target="_blank"
                     style={linkStyle}
                     onMouseEnter={(e) =>

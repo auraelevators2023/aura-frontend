@@ -27,7 +27,7 @@ const Footer = () => {
                       to="https://goo.gl/maps/uWu83fRPxYBwcQjv5"
                       target="_blank"
                     >
-                      Shop no 236, city classic complex, <br />
+                      Shop no 236, City Classic Complex, <br />
                       Jivraj Park Main Rd, Mota Mava, Rajkot, Gujarat 360004
                     </Link>
 
@@ -38,7 +38,7 @@ const Footer = () => {
                       Phone: +919909965265
                     </Link> */}
                     <br />
-                    <Link to="tel:+919909965265" target="_blank">
+                    <Link to="tel:+917990809661" target="_blank">
                       Customer Care: +917990809661
                     </Link>
                     <br />
@@ -103,7 +103,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link to="/contect" onClick={scrollToTop}>
-                      contact
+                      Contact
                     </Link>
                   </li>
                   {/* <li>

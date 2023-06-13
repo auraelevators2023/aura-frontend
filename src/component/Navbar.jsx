@@ -125,16 +125,16 @@ const Navbar = () => {
 export default Navbar
 
 
-const ProductLink = ({id,link,name ,navToggle}) => {
+// const ProductLink = ({id,link,name ,navToggle}) => {
   
-  return (
-    <li>
-      <Link to="/productdetail" onClick={navToggle}>
-        Passenger Elevators
-      </Link>
-    </li>
-  );
-}
+//   return (
+//     <li>
+//       <Link to="/productdetail" onClick={navToggle}>
+//         Passenger Elevators
+//       </Link>
+//     </li>
+//   );
+// }
 
 
 /*

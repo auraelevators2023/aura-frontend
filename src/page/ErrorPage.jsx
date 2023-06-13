@@ -1,4 +1,4 @@
-import { useEffect ,useState} from 'react'
+import { useEffect} from 'react'
 import React  from 'react'
 import '../style/ErrorPage.css'
 import { useNavigate } from 'react-router-dom'

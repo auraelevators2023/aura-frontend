@@ -28,10 +28,10 @@ const commonrside = {
   rtopic2: "Popular Brands",
   rpoint2: [
     { p: "Monarch" },
-    { p: "wittur" },
-    { p: "fe  rmator" },
-    { p: "arkel" },
-    { p: "torin-drive" },
+    { p: "Wittur" },
+    { p: "Fermator" },
+    { p: "Arkel" },
+    { p: "Torin-Drive" },
   ],
 }
   
