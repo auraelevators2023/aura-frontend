@@ -5,6 +5,12 @@ import OurService from '../component/OurService';
 import data from '../data/home';
 import HomeCard from '../component/HomeCard';
 import HomeSlide from '../component/HomeSlide';
+import crosol1 from '../images/home-crosol1.png'
+import crosol2 from "../images/home-crosol2.jpg";
+import crosol3 from "../images/home-crosol3.jpg";
+import crosol4 from "../images/home-crosol4.png";
+import crosol5 from "../images/home-crosol5.jpg"
+
 
 const Home = () => {
 
@@ -39,36 +45,34 @@ const Home = () => {
             <div
               className="carousel-item active"
               style={{
-                backgroundImage:
-                  "url(https://i.postimg.cc/z3mqBjtJ/Screenshot-2023-05-17-223837.png)",
+                backgroundImage: `url(${crosol1})`
+              }}
+            />
+            <div
+              className="carousel-item"
+              style={{
+                backgroundImage: `url(${crosol2})`
               }}
             />
             <div
               className="carousel-item"
               style={{
                 backgroundImage:
-                  "url(https://i.postimg.cc/HxRzyJTM/owen-cannon-c-WLTa-VPCGy-A-unsplash.jpg)",
+                  `url(${crosol3})`
               }}
             />
             <div
               className="carousel-item"
               style={{
                 backgroundImage:
-                  "url(https://i.postimg.cc/T2jMg8cL/depositphotos-87874458-stock-photo-3d-rendering-an-elevator-shaft.webp)",
+                   `url(${crosol4})`
               }}
             />
             <div
               className="carousel-item"
               style={{
                 backgroundImage:
-                  "url(https://i.postimg.cc/hPRCK3M1/Screenshot-2023-05-11-233252.png)",
-              }}
-            />
-            <div
-              className="carousel-item"
-              style={{
-                backgroundImage:
-                  "url(https://i.postimg.cc/Zq7rg1gG/Microsoft-Teams-image-13.jpg)",
+                   `url(${crosol5})`
               }}
             />
             <Link

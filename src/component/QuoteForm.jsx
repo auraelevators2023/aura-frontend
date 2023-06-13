@@ -6,7 +6,7 @@ const QuoteForm = () => {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
   const [loading1, setLoading1] = useState(false);
-  const [sent, setSent] = useState(false);
+  //const [sent, setSent] = useState(false);
   const [error, setError] = useState(false);
 
 
@@ -107,7 +107,7 @@ const QuoteForm = () => {
             placeholder="Name"
             required
             onKeyDown={(e) => {
-              if (!/^[a-zA-Z\s\.]+$/.test(e.key)) {
+              if (!/^[a-zA-Z\s.]+$/.test(e.key)) {
                 e.preventDefault();
               }
             }}

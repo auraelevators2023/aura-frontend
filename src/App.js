@@ -9,10 +9,10 @@ import Contect from "./page/Contect";
 import About from "./page/About";
 import Service from "./page/Service";
 import ServiceDetail from "./page/ServiceDetail";
-import Blog from "./page/Blog";
+//import Blog from "./page/Blog";
 import ProductDetail from "./page/ProductDetail";
-import Project from "./page/Project";
-import ProjectDetail from "./page/ProjectDetail";
+//import Project from "./page/Project";
+//import ProjectDetail from "./page/ProjectDetail";
 //import Test from "./page/Test";
 //components
 import Navbar from "./component/Navbar";

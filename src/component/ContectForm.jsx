@@ -10,7 +10,7 @@ const ContectForm = () => {
   const [error, setError] = useState(false);
   const [errorMsg, setErrorMsg] = useState("");
   const [success, setSuccess] = useState(false);
- console.log();
+  console.log();
   const sendForm = async (e) => {
     e.preventDefault();
 
@@ -37,47 +37,35 @@ const ContectForm = () => {
       );
 
       const data = await response.json();
-          setErrorMsg(data.msg); 
+      setErrorMsg(data.msg);
 
       if (data.status) {
-       
-      
         setSuccess(true);
-      
-      }
-      else {
-        setError(true);
-        
-      }
-
-    
-
-        setTimeout(() => {
-          setError(false);
-          setSuccess(false);
-        }, 7000);
-      
-    } catch (error) {
-       setErrorMsg("Error in Sending Message"); 
-        console.error(error);
+      } else {
         setError(true);
       }
-    
 
-    setLoading(false);
       setTimeout(() => {
         setError(false);
         setSuccess(false);
-      }, 10000);
-    
-      setName("");
-      setEmail("");
-      setSubject("");
-      setMessage("");
-     
+      }, 7000);
+    } catch (error) {
+      setErrorMsg("Error in Sending Message");
+      console.error(error);
+      setError(true);
+    }
 
-   
-  }
+    setLoading(false);
+    setTimeout(() => {
+      setError(false);
+      setSuccess(false);
+    }, 10000);
+
+    setName("");
+    setEmail("");
+    setSubject("");
+    setMessage("");
+  };
 
   return (
     <div>
@@ -94,7 +82,7 @@ const ContectForm = () => {
               value={name}
               onChange={(e) => setName(e.target.value)}
               onKeyDown={(e) => {
-                if (!/^[a-zA-Z\s\.]+$/.test(e.key)) {
+                if (!/^[a-zA-Z\s.]+$/.test(e.key)) {
                   e.preventDefault();
                 }
               }}
@@ -124,7 +112,7 @@ const ContectForm = () => {
             value={subject}
             onChange={(e) => setSubject(e.target.value)}
             onKeyDown={(e) => {
-              if (!/^[a-zA-Z\s\.]+$/.test(e.key)) {
+              if (!/^[a-zA-Z\s.]+$/.test(e.key)) {
                 e.preventDefault();
               }
             }}

@@ -1,20 +1,18 @@
-import React from 'react'
-import ContectForm from '../component/ContectForm';
-import { Link } from 'react-router-dom';
+import React from "react";
+import ContectForm from "../component/ContectForm";
+import { Link } from "react-router-dom";
 const Contect = () => {
+  const linkStyle = {
+    color: "black",
+    textDecoration: "none",
+    cursor: "pointer",
+    transition: "all 0.4s ease 0s",
+  };
 
-    const linkStyle = {
-      color: "black",
-      textDecoration: "none",
-      cursor: "pointer",
-      transition: "all 0.4s ease 0s",
-    };
+  const hoverStyle = {
+    color: "#1e849d",
+  };
 
-    const hoverStyle = {
-      color: "#1e849d",
-    };
-
-  
   return (
     <>
       <div
@@ -52,7 +50,7 @@ const Contect = () => {
                       (e.currentTarget.style.color = linkStyle.color)
                     }
                   >
-                    Shop no 236, city classic complex, Jivraj Park Main Rd, Mota
+                    Shop no 236, City Classic Complex, Jivraj Park Main Rd, Mota
                     Mava, Rajkot, Gujarat 360004
                   </Link>
                 </p>
@@ -89,7 +87,7 @@ const Contect = () => {
                 <p>
                   {" "}
                   <Link
-                    to="tel:+919909965265"
+                    to="tel:+917990809661"
                     target="_blank"
                     style={linkStyle}
                     onMouseEnter={(e) =>
@@ -134,6 +132,6 @@ const Contect = () => {
       </a>
     </>
   );
-}
+};
 
-export default Contect
+export default Contect;
