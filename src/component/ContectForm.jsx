@@ -21,7 +21,7 @@ const ContectForm = () => {
     // Make an API call to submit the form data
     try {
       const response = await fetch(
-        `${process.env.REACT_APP_API_PATH}/api/email/contect`,
+        `https://aura-backend-production.up.railway.app/api/email/contect`,
         {
           method: "POST",
           headers: {
