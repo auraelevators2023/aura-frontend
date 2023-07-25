@@ -23,7 +23,7 @@ const QuoteForm = () => {
        // Make an API call to submit the form data
     try {
       const response = await fetch(
-        `https://aura-backend-production.up.railway.app/api/email/quote`,
+       process.env.REACT_APP_AURA_QUOTE,
         {
           method: "POST",
           headers: {
